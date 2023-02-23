@@ -1,0 +1,397 @@
+body {
+	color: #ffffff;
+	font: 18px Tahoma, sans-serif;
+	background-image: url("background.jpg");
+	border-top: 5px solid #7e7e7e;
+	margin: 0;
+	text-align: center;
+}
+#wrapper {
+	width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 0;
+}
+header {
+	font-family: fantasy;
+}
+#canvas {
+	background-image: url("1.png");
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	-moz-background-size: 100%;
+	-ms-background-size: 100%;
+	-khtml-background-size: 100%;
+	background-size: 100%;
+}
+
+.hands{
+	position: center;
+	background: url("hands.png") no-repeat center;
+	display: table-cell;
+	width: 100%;
+	height: 970px;
+}
+
+.card{
+	background-image: url("blanc.png");
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	-moz-background-size: 100%;
+	-ms-background-size: 100%;
+	-khtml-background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	bottom: 40%;
+	left: 40%;
+	width: 480px;
+	height: 480px;
+	background-size: 480px, 480px;
+}
+
+.cardFiller{
+	position: absolute;
+	left: 94px;
+	bottom: 200px;
+}
+
+.class-404{
+	width: 1920px;
+	height: 1080px;
+	background: url("NotFound.jpg") no-repeat center;
+}
+
+.user-line{
+	background: chartreuse;
+}
+
+.scroll-table{
+	margin-top: 30px;
+}
+
+.scroll-table-body {
+	height: 700px;
+	text-shadow: 2px 2px 2px #000;
+	overflow-x: auto;
+	margin-bottom: 20px;
+}
+table {
+	border: 1px solid #61dafb;
+	text-shadow: 2px 2px 2px #000;
+	width:40%;
+	margin-left: 35%;
+	table-layout: fixed;
+}
+
+thead, th {
+	font-weight: bold;
+	text-align: center;
+	background: #d8d8d8;
+	font-size: 14px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+tbody, td {
+	text-align: center;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	width: auto;
+	height: 100%;
+	font-size: 14px;
+}
+
+.scroll-table tbody tr:nth-child(even){
+	background: #f3f3f3;
+}
+
+/* Стили для скролла */
+::-webkit-scrollbar {
+	width: 6px;
+}
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+
+.color {
+	background-image: url("color.png");
+	width: 58%;
+	margin-top: 5px;
+	margin-left: 21%;
+	margin-right: 21%;
+	text-align: center;
+	outline: 2px solid #61dafb;;
+
+}
+
+.TextInput {
+	width: 100%;
+}
+
+#canvas {
+	background-image: url("img.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	display: inline-block;
+	white-space: normal;
+	vertical-align: middle;
+	text-align: left;
+}
+#canvas:hover{
+	outline: 2px solid #61dafb;
+}
+
+.canvasPlace{
+	margin-top: 2%;
+	white-space: nowrap;
+	font-size: 0;
+}
+.canvasPlace::before {
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	horiz-align: center;
+	content: '';
+}
+
+#ranger{
+	width: 60%;
+}
+
+.button-l{
+	position: absolute;
+	right: 0;
+}
+.tableBtn{
+	bottom: 0;
+	left: 46%;
+}
+
+#warning{
+	color: #DC143C;
+	text-outline: black;
+	outline-width: 2px;
+}
+
+.belle-input{
+	white-space: nowrap;
+	text-shadow: 1px 1px 1px #000;
+}
+.belle-input::before {
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	content: '';
+	text-shadow: 1px 1px 1px #000;
+}
+
+.tbl-main {
+	display: inline-block;
+	width: 50%;
+	color: #ffffff;
+	font: 18px Tahoma, sans-serif;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000;
+}
+
+
+.field{
+	height: 10%;
+}
+
+.head{
+	outline: 2px solid #61dafb;
+}
+.bottom{
+	text-shadow: 1px 1px 1px #000;
+	outline: 2px solid #61dafb;
+}
+
+#admiral{
+	text-shadow: 1px 1px 1px #000;
+	position: fixed;
+	bottom: 0;
+	margin-left: 0;
+}
+
+
+.top{
+	border-top: 2px #000000;
+}
+
+.btn-exit{
+	position: absolute;
+	margin-left: 0;
+}
+
+#foot{
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #000;
+}
+#field-x {
+	text-align: center;
+}
+#field-y {
+	text-align:center;
+}
+.button {
+	cursor: pointer;
+	padding: 7px 14px;
+	border-radius: 10px;
+}
+.button:hover{
+	background-color: #DC143C;
+}
+.button:focus {
+	background-color: #DC143C;
+}
+#val-y:hover{
+	background-color: #DC143C;
+}
+#val-x:hover{
+	background-color: #DC143C;
+}
+.error {
+	color: red;
+	font-family: system-ui;
+	font-weight: bold;
+	font-size: small;
+}
+
+header {
+	padding: 20px 0;
+	margin-left: 20%;
+}
+
+.cardBlocks{
+	position: absolute;
+	bottom: 20px;
+	left: 17px;
+	display: inline-block;
+}
+
+.card-btns{
+	position: absolute;
+	bottom: -30px;
+	left: 17px;
+	display: inline-block;
+}
+#xSign{
+	left: -7px;
+}
+#ySign{
+	left: 60px;
+}
+#y{
+	left: 85px;
+}
+#r{
+	left: 145px;
+}
+#res{
+	left: 213px;
+}
+#x-btn{
+	left: -10px;
+}
+#y-btn{
+	left: 56px;
+}
+#r-btn{
+	left: 117px;
+}
+#send-btn{
+	left: 185px;
+}
+#close-btn{
+	bottom: 114px;
+	left: 262px;
+}
+
+@media all and (max-width : 1260px) {
+	table {
+		width:60%;
+		margin-left: 25%;
+	}
+	#admiral{
+		display: none;
+	}
+	.card{
+		left: 35%;
+	}
+}
+@media all and (max-width : 1362px) {
+	.tbl-main {
+		width: 80%;
+	}
+}
+@media all and (max-width : 893px) {
+	table {
+		width: 80%;
+		margin-left: 10%;
+	}
+	.tbl-main {
+		width: 100%;
+		color: #ffffff;
+	}
+	.card{
+		left: 20%;
+	}
+	.color {
+		margin-left: 0;
+		width: 100%;
+	}
+	.canvasPlace{
+		margin-bottom: 50px;
+	}
+	.hands{
+		margin-top: 40px;
+		height: 60%;
+		margin-bottom: 40px;
+	}
+	.heighter{
+		height: 100px;
+	}
+	.scroll-table{
+		margin-top: 10%;
+	}
+	.scroll-table-body{
+		height: 600px;
+	}
+	.top{
+		opacity: 0;
+	}
+	.strong-top{
+		opacity: 0;
+	}
+}
+
+@media all and (max-width : 550px) {
+	.card{
+		left: 10%;
+	}
+}
+
+@media all and (max-width : 430px) {
+	.card{
+		left: 0;
+	}
+}
+
+@media all and (max-width : 390px) {
+	#close-btn{
+		left: -90px;
+	}
+}
+
+@media all and (max-width : 370px) {
+	.canvasPlace{
+		display: none;
+	}
+}

@@ -3,13 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mui/material": "^5.11.4",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "belle": "^4.0.0",
+    "exenv": "^1.2.2",
+    "http-proxy-middleware": "^2.0.6",
+    "range-slider-input": "^2.4.3",
     "react": "^18.2.0",
+    "react-audio-player": "^0.17.0",
+    "react-css-property-operations": "^15.4.1",
     "react-dom": "^18.2.0",
+    "react-range-slider-input": "^3.0.7",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.6.2",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "redux": "^4.2.0",
+    "styled-components": "^5.3.6",
+    "toolcool-range-slider": "^4.0.19",
+    "web-vitals": "^2.1.4",
+    "webpack-cli": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,6 +31,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "proxy": "http://localhost:6060",
+  "homepage": "/studs/misha/lab-4",
   "eslintConfig": {
     "extends": [
       "react-app",
